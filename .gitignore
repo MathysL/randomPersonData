@@ -3,3 +3,5 @@
 ################################################################################
 
 *.sqlite
+.vs/VSWorkspaceState.json
+.vs/randomPersonData/v16/.suo

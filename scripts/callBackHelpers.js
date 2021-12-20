@@ -1,15 +1,15 @@
 // JavaScript helpers: The callback we pass into array.sort officially should return 1, 0 or -1
 // Firefox does this conversion itself.
 // Chrome needs this helper!
-function sort_helper(result) {
-    // We can make this shorter with a ternary.
-    if (result) {
+function sort_helper(result) { if (result) {
         return 1;
-    } else {
-        return -1;
+} else {
+    return -1;
     }
 }
 //cL set or run getCountries in callBackHelpers
+// images of sighns in images and the main link below
+const infoWikiZodiac = 'https://en.wikipedia.org/wiki/Sun_sign_astrology';
 // set zodiacs all
 function getStarSign(month, day) {
     // Normally adding {} to if statements is better but here's an exception.
@@ -64,8 +64,9 @@ function getStarSign(month, day) {
 }
 // get zodiac capriWomen
 const addStarSign = person => {
-    const month = parseInt(person.birthday.dmy.split("/")[1]); // 1..12
-    const day = parseInt(person.birthday.dmy.split("/")[0]); // 1..31
+    // year= person.age;
+    const month = parseInt(person.birthday.dmy.split("/")[1]); //month 1..12
+    const day = parseInt(person.birthday.dmy.split("/")[0]); //day 1..31
     person.sign = getStarSign(month, day);
     return person;
 };
