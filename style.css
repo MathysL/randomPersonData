@@ -1,0 +1,56 @@
+﻿body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+a { 
+    font-size: 16px;
+    margin: 12px 12px 12px 0;
+}
+nav input {
+    font-size: 16px;
+    margin: 12px 12px 12px 0;
+}
+
+ul.results li span {
+list style:arrow;
+    display: block;
+}
+
+.sub_buttons input:not([type="checkbox"]):not([type="radio"]) {
+    display: inline;
+}
+
+.sub_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 12px;
+}
+    .sub_buttons input,
+    .sub_buttons .card {
+        margin: 12px 12px 12px 0;
+    }
+.cCCheck {
+    color:red;
+}
+.card {
+    border-left-color:antiquewhite;
+    background-color: lightskyblue;
+    border: 1px solid lightgrey;
+    width: 120px;
+    text-overflow: unset;
+    padding: 1.5em;
+    border-radius: 1px;
+}
+
+    .card span {
+        
+        display: block;
+    }
+
+    .card input {
+        margin-top: 12px;
+    }
+
+    .card.self {
+        background-color: cornflowerblue;
+    }
