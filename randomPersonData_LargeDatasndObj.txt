@@ -1,5 +1,4 @@
 Front-end Devel...
-0 VOLTOOIDE CURSUSSEN
 ASSIGNMENT: WORKING WITH LARGE ARRAYS AND OBJECTS 
 MEER 
 Assignment: Working with large arrays and objects
